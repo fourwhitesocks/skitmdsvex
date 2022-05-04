@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        //"module": "commonjs",
+        //"target": "es2019",
+        //all i normally have is base url and paths
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "allowJs": true,
+        "paths": {
+            "$routes": [
+                "src/routes"
+            ],
+            "$routes/*": [
+                "src/routes/*"
+            ],
+            "$components": [
+                "src/components"
+            ],
+            "$components/*": [
+                "src/components/*"
+            ],
+            "$utils": [
+                "src/utils"
+            ],
+            "$utils/*": [
+                "src/utils/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.d.ts",
+        "src/**/*.js",
+        "src/**/*.ts",
+        "src/**/*.svelte"
+    ]
+}
