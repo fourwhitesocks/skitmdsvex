@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import { mdsvex } from 'mdsvex';
-import path from 'path'
+import path from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 

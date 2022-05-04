@@ -1,6 +1,6 @@
 
 import { faqs
-} from "./_faqs";
+} from './_faqs';
 
     export async function get() {
       return {

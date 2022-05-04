@@ -5,7 +5,7 @@
 
   const modules = import.meta.globEager("../../content/faqs/*.md");
   
-  export const faqs = Object.entries(modules).map(([ module]) => {
+  export const faqs = Object.entries(modules).map(([module]) => {
     const { metadata } = module;
     const { html } = module.default.render();
     return {

@@ -1,2 +1,2 @@
-# Svektit test app to learn mdsvex
+# Sveltekit test app to learn mdsvex
 
