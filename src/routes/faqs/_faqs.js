@@ -1,6 +1,9 @@
 // reference: https://githubmemory.com/repo/pngwn/MDsveX/issues/294
 
-const modules = import.meta.globEager("../../content/faqs/*.md");
+
+
+
+/* const modules = import.meta.globEager("../../content/faqs/*.md");
 
 
   
@@ -13,15 +16,15 @@ console.log(module.default)
   };
 
  
-});
+}); */
  
 
 //old code before discord Mark H helped me
-/* 
+
 
 const modules = import.meta.globEager("../../content/faqs/*.md");
   
-  export const faqs = Object.entries(modules).map(([path, module]) => {
+  export const faqs = Object.entries(modules).map(([filepath, module]) => {
     const { metadata } = module;
     const { html } = module.default.render();
     return {
@@ -32,8 +35,10 @@ const modules = import.meta.globEager("../../content/faqs/*.md");
    
   });
 
+  console.log(faqs);
 
 
 
-*/
+
+
 
