@@ -3,7 +3,7 @@
 
 
 
-/* const modules = import.meta.globEager("../../content/faqs/*.md");
+ const modules = import.meta.globEager("../../content/faqs/*.md");
 
 
   
@@ -16,12 +16,12 @@ console.log(module.default)
   };
 
  
-}); */
+}); 
  
 
-//old code before discord Mark H helped me
+//old code before discord Mark H helped me AMy code down here
 
-
+/* 
 const modules = import.meta.globEager("../../content/faqs/*.md");
   
   export const faqs = Object.entries(modules).map(([filepath, module]) => {
@@ -35,7 +35,7 @@ const modules = import.meta.globEager("../../content/faqs/*.md");
    
   });
 
-  console.log(faqs);
+  console.log(faqs); */
 
 
 

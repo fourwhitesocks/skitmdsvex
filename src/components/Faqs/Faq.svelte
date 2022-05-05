@@ -6,7 +6,7 @@
 
 <li>
 	<button on:click={() => (visible = !visible)} class="question">
-		<img src="#" alt="bullet" class="bullet" class:close={visible} />
+		<img alt="bullet" class="bullet" class:close={visible} />
 		{faq.question}
 	</button>
 	{#if visible}
