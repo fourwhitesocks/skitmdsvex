@@ -29,3 +29,9 @@
 		</ul>
 	{/if}
 </div>
+
+<style>
+	ul {
+		list-style-type: none;
+	}
+</style>

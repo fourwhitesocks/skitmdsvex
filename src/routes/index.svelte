@@ -23,12 +23,11 @@
 		to my mdsvex<br />experiment
 	</h1>
 
+	<h2>
+		<strong> My MDSVEX content </strong>
+	</h2>
 	<!-- FAQS -->
 	<Faqs />
-
-	<h2>
-		<strong> My content from mdsvex should be showing here ;-)<br />.. but it's not! </strong>
-	</h2>
 </section>
 <section />
 
