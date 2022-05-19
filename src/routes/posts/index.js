@@ -19,7 +19,7 @@ import { client } from '$lib/graphql-client'
 
     
     
-      const { posts } = await res.json()
+      const { posts } = await res.json(archiveQuery)
       //const { posts } = await client.request({query})
 
           return {
