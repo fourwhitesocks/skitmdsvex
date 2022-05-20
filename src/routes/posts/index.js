@@ -15,12 +15,12 @@ import { client } from '$lib/graphql-client'
   export const get = async () => {
     //res is response and it will await the response and then return the props which are the posts but using shadow endpoints you have to use body
     
-    const res = await fetch({client})
+    //const res = await fetch({client})
 
     
     
-      const { posts } = await res.json(archiveQuery)
-      //const { posts } = await client.request({query})
+      //const { posts } = await res.json(archiveQuery)
+      const { posts } = await client.request({archiveQuery})
 
           return {
               status: 200,

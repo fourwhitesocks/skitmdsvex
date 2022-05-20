@@ -1,0 +1,18 @@
+[
+    {
+        "title": "First Post",
+        "slug": "first-post",
+        "excerpt": "Donut brownie caramels toffee sugar plum liquorice biscuit. Brownie sweet roll lollipop bonbon marshmallow. Cupcake chocolate bar croissant icing bonbon pastry cheesecake gummi bears brownie. Wafer marshmallow muffin cake oat cake macaroon cheesecake.",
+        "image": {
+            "url": "https://media.graphassets.com/btVbJI74TAehCNiBBpzn"
+        }
+    },
+    {
+        "title": "Second Post",
+        "slug": "second-post",
+        "excerpt": "Donut brownie caramels toffee sugar plum liquorice biscuit. Brownie sweet roll lollipop bonbon marshmallow. Cupcake chocolate bar croissant icing bonbon pastry cheesecake gummi bears brownie. Wafer marshmallow muffin cake oat cake macaroon cheesecake.",
+        "image": {
+            "url": "https://media.graphassets.com/C5rjtP68TiO9f4rzzIQi"
+        }
+    }
+]

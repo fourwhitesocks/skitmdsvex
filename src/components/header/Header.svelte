@@ -23,7 +23,10 @@
 				<a sveltekit:prefetch href="/todos">Todos</a>
 			</li>
 			<li class:active={$page.url.pathname === '/posts'}>
-				<a sveltekit:prefetch href="/todos">Posts</a>
+				<a sveltekit:prefetch href="/posts">Posts</a>
+			</li>
+			<li class:active={$page.url.pathname === '/fields'}>
+				<a sveltekit:prefetch href="/fields">Fields</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
