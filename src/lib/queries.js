@@ -2,7 +2,7 @@
 import { gql } from 'graphql-request'
 
 
-export const archiveQuery = gql`
+/* export const archiveQuery = gql`
         
         query Posts {
             posts {
@@ -16,8 +16,18 @@ export const archiveQuery = gql`
               }
             }
           }
-        `
+        ` */
         
 
-
-
+        export const postQuery = gql`
+        
+        query Posts {
+        posts {
+          title
+          excerpt
+          image {
+            url
+          }
+        }
+      }
+        `
