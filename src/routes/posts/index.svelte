@@ -4,6 +4,7 @@
 
 <h1>Posts Archive</h1>
 
-{#each posts as { post }}
-	<h2>{posts.title}</h2>
+{#each posts.posts as { title, excerpt }}
+	<h2>{title}</h2>
+	<p>{excerpt}</p>
 {/each}
