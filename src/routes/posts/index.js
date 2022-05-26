@@ -5,17 +5,18 @@ import { query } from '$lib/data/db'
 
 export async function get() {
 
- const { posts } = await query(`
+ const  posts  = await query(`
 
-{
+
     posts {
       title
       excerpt
     image {
       url
     }
-
   }
+
+  
   `)
 
 
