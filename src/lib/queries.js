@@ -19,9 +19,8 @@ import { gql } from 'graphql-request'
         ` */
         
 
-        export const postQuery = gql`
-        
-        query Posts {
+        export const queryPosts =`
+ 
         posts {
           title
           excerpt
@@ -29,5 +28,5 @@ import { gql } from 'graphql-request'
             url
           }
         }
-      }
+      
         `
