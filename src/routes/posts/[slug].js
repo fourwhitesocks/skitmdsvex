@@ -6,7 +6,7 @@ export async function get() {
  const  post  =  await query(` 
      
   post($slug: String!) {
-  (where:{ slug:$slug }){
+  post(where:{ slug:$slug }){
     title
     excerpt
   }
