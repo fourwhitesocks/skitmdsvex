@@ -1,23 +1,19 @@
-
 import { query } from '$lib/data/db'
-
-export async function get() {
-
- const  post  =  await query(` {
+export async function get( {params }) {
+ const { post } = await query(` 
      
-  post($slug: String!) {
-  post(where:{ slug:$slug }){
+  post(where:{ slug: "${params.slug}" }){
     title
     excerpt
+    image {
+      url
+    }
   }
-}
-
   `)
 
-return {
-  body: 
-    post 
-
-
-};
+  return {
+    body: {
+      post
 }
+  }
+};
