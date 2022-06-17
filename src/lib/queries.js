@@ -1,5 +1,4 @@
-//import {client} from '$lib/graphql-client'
-import { gql } from 'graphql-request'
+
 
 
 /* export const archiveQuery = gql`
@@ -19,14 +18,14 @@ import { gql } from 'graphql-request'
         ` */
         
 
-        export const queryPosts =`
- 
-        posts {
-          title
+        export const queryDogs =`
+          
+      
+        dogs {
+          breed
+          slug
           excerpt
-          image {
-            url
-          }
-        }
+        
+      }
       
         `
