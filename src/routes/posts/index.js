@@ -11,9 +11,11 @@ export async function get() {
     posts {
       title
       excerpt
+      slug
     image {
       url
     }
+   
   }
 
   
