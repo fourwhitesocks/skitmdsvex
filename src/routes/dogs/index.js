@@ -9,7 +9,7 @@ export async function get() {
 
  const  dogs  = await query(
  
-  queryDogs,
+  queryDogs
 )
 
 return {
