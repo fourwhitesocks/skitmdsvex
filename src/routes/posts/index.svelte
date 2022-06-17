@@ -5,7 +5,7 @@
 <h1>Posts Archive</h1>
 
 {#each posts.posts as { title, image, excerpt, slug }}
-	<a href={`/posts/${slug}`}>
+	<a href="/posts/{slug}">
 		<h2>{title}</h2>
 	</a>
 	<p>{excerpt}</p>
