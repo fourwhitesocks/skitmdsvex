@@ -2,7 +2,7 @@
 	export let dogs;
 </script>
 
-<h1>Posts Archive</h1>
+<h1>Dogs Archive</h1>
 
 {#each dogs.dogs as { breed, excerpt }}
 	<!-- <a href="/dogs/{slug}"> 
