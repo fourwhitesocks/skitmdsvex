@@ -25,6 +25,7 @@
           breed
           slug
           excerpt
+          info  
         
       }
       
