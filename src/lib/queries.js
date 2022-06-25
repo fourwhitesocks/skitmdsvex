@@ -26,6 +26,9 @@
           slug
           excerpt
           info  
+          rich_text {
+            html
+          }
         
       }
       

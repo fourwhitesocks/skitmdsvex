@@ -5,9 +5,11 @@
 
 <h1>Dogs Archive</h1>
 
-{#each dogs.dogs as { breed, excerpt, info }}
+{#each dogs.dogs as { breed, excerpt, info, rich_text }}
 	<h2>{breed}</h2>
 	<p>{excerpt}</p>
 
 	{@html marked.parse(info)}
+
+	{@html rich_text}
 {/each}
