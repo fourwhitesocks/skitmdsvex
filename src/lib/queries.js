@@ -25,11 +25,14 @@
           breed
           slug
           excerpt
-          info  
+          info 
           rich_text {
             html
-          }
+          } 
+          
         
       }
       
         `
+
+        

@@ -1,11 +1,8 @@
 <script>
 	import { marked } from 'marked';
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
-	import { content } from './content-example';
 
 	const rich_text = astToHtmlString({
-		content,
-
 		renderers: {
 			bold: (props) => `<strong>${props.children}</strong>`,
 			Asset: {
