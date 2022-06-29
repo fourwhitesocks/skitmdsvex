@@ -4,7 +4,7 @@ export const content = {
 
     children: [
         {
-          type: 'heading-two',
+          type: 'paragraph',
           children: [{ text: '' }],
         },
         {
