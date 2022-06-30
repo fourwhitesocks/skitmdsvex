@@ -2,13 +2,22 @@
 	import { marked } from 'marked';
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
 
-	const html = astToHtmlString({
-		//this is the name of my rich text field
-		rich_text,
+	const content = {
+		children: [
+			{
+				type: 'paragraph',
+				children: [
+					{
+						bold: true,
+						text: 'Hello World'
+					}
+				]
+			}
+		]
+	};
 
-		renderers: {
-			bold: (props) => `<strong>${props.children}</strong>`
-		}
+	const html = astToHtmlString({
+		content
 	});
 
 	export let dogs;
@@ -16,14 +25,13 @@
 
 <h1>Dogs Archive</h1>
 
-{#each dogs.dogs as { breed, excerpt, info, rich_text }}
+{#each dogs.dogs as { breed, excerpt, info }}
 	<h2>{breed}</h2>
 	<p>{excerpt}</p>
 
 	{@html marked.parse(info)}
 	<p>rich text should appear after this</p>
 
+	<!-- below is needed -->
 	{@html html}
-
-	<br />
 {/each}

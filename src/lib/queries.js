@@ -24,9 +24,10 @@
           
       
         dogs {
-          rich_text {
-            html
-            json
+          
+          content {
+            raw
+            
           }
         
           breed
