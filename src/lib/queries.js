@@ -25,15 +25,14 @@
       
         dogs {
           
-          content {
-            raw
-            
-          }
-        
           breed
           slug
           excerpt
           info 
+          content {
+            raw
+            
+          }
          
            }
       

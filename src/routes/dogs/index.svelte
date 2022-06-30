@@ -12,6 +12,14 @@
 						text: 'Hello World'
 					}
 				]
+			},
+			{
+				type: 'paragraph',
+				children: [
+					{
+						text: "It's hot in here!"
+					}
+				]
 			}
 		]
 	};
