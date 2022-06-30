@@ -2,13 +2,12 @@
 	import { marked } from 'marked';
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
 
-	const rich_text = astToHtmlString({
+	const html = astToHtmlString({
+		//this is the name of my rich text field
+		rich_text,
+
 		renderers: {
-			bold: (props) => `<strong>${props.children}</strong>`,
-			Asset: {
-				application: () => `<div><p>Asset</p></div>`,
-				text: () => `<div><p>text plain</p></div>`
-			}
+			bold: (props) => `<strong>${props.children}</strong>`
 		}
 	});
 
@@ -22,6 +21,9 @@
 	<p>{excerpt}</p>
 
 	{@html marked.parse(info)}
+	<p>rich text should appear after this</p>
 
-	{@html rich_text}
+	{@html html}
+
+	<br />
 {/each}

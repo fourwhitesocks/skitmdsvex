@@ -16,22 +16,25 @@
             }
           }
         ` */
+
+        
         
 
         export const queryDogs =`
           
       
         dogs {
+          rich_text {
+            html
+            json
+          }
+        
           breed
           slug
           excerpt
           info 
-          rich_text {
-            html
-          } 
-          
-        
-      }
+         
+           }
       
         `
 
