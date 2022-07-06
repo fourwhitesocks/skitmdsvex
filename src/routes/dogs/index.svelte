@@ -42,7 +42,7 @@
 		Rich text should appear after this; yep hello world and it's hot in here text are harded coded
 		in...not what i'm looking for!
 	</p>
-
-	<!-- below is needed for the html rich text renderer-->
-	{@html html}
 {/each}
+
+<!-- below is needed for the html rich text renderer-->
+{@html html}
