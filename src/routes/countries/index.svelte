@@ -6,6 +6,7 @@
 			countries {
 				name
 				emoji
+				capital
 			}
 		}
 	`;
@@ -28,7 +29,8 @@
 <!-- {JSON.stringify(data)}
  -->
 <h1>Countries GraphQL example</h1>
+<a href="https://youtu.be/Rm-mmelM6iQ" target="_blank">Web Jeda video </a>
 
-{#each data.countries as { name, emoji }}
-	<p>{emoji} {name}</p>
+{#each data.countries as { name, emoji, capital }}
+	<p>{emoji} {name} {capital}</p>
 {/each}
