@@ -1,5 +1,6 @@
 <script>
 	import { marked } from 'marked';
+
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
 
 	const content = {
