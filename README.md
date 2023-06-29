@@ -6,6 +6,7 @@
 - show to put all queries in one file
 - added 'marked' npm package to parse out a markdown graph cms content field
 - added a package @graphcms/rich-text-html-renderer" for a rich text content field/work in progress
+- in hygraph this goes with the Shadow endpoints project
 
 
 

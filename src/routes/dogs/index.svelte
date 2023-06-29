@@ -2,34 +2,15 @@
 	import { marked } from 'marked';
 
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
-
-	const content = {
-		children: [
-			{
-				type: 'paragraph',
-				children: [
-					{
-						bold: true,
-						text: 'Hello World'
-					}
-				]
-			},
-			{
-				type: 'paragraph',
-				children: [
-					{
-						text: "It's hot in here!"
-					}
-				]
-			}
-		]
-	};
-
-	const html = astToHtmlString({
-		content
-	});
+	//import { content } from './content-example';
 
 	export let dogs;
+
+	/* const content = dogsRichTextData.dogs.map((element) => {
+		return element.richText.raw;
+	}); */
+
+	console.log(dogs);
 </script>
 
 <h1>Dogs Archive</h1>
@@ -45,5 +26,5 @@
 	</p>
 {/each}
 
-<!-- below is needed for the html rich text renderer-->
-{@html html}
+<!-- below is needed for the html rich text renderer
+{@html astToHtmlString}-->
